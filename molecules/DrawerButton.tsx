@@ -3,6 +3,7 @@ import { Feather } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 import { DrawerActions } from "@react-navigation/native";
 import { navigationRef } from "../navigations/RootNavigation";
+import { navigate } from "../navigations/RootNavigation";
 
 export const DrawerButton = () => {
   return (
